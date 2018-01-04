@@ -12,7 +12,7 @@ public class Question04 {
 		System.out.println(~num);// question1
 		
 		int num2 = 15678;
-		System.out.println((num2>>2) & 1);
+		System.out.println((num2>>2) & 1); //획기적이다
 		System.out.println((num2>>4) & 1);
 		
 	}
