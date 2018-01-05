@@ -3,11 +3,13 @@ class Singleton{
 	private int num = 0;
 	private static Singleton inst= new Singleton();
 	private Singleton(){
-		
+
 	}
+	
 	public static Singleton getInstance(){
 		return inst;
 	}
+	
 	public void addNum(int num){
 		this.num += num;
 	}
