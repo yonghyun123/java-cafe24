@@ -1,6 +1,13 @@
 package orange.area;
 
 import chapter14.Test01;
+import chapter16.MyFriendInfoBook;
+
+class Friend2 extends MyFriendInfoBook{
+	public void showData(){
+		num++;
+	}
+}
 
 public class test extends Test01{
 	test(){

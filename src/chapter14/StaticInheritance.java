@@ -20,11 +20,13 @@ public class StaticInheritance {
 		// TODO Auto-generated method stub
 		Adder a1 = new Adder();
 		AdderFriend a2 = new AdderFriend();
+		Adder a3 = new AdderFriend();
 		
 		a1.add(1);
 		a2.friendAdd(2);
 		AdderFriend.val += 3;
 		Adder.val += 4;
+		a3.add(5);
 		a2.showVal();
 	}
 

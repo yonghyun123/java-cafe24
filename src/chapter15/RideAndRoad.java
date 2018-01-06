@@ -5,7 +5,7 @@ package chapter15;
  *
  */
 class AAA{
-	public void rideMethod(){
+	public static void rideMethod(){
 		System.out.println("AAA's Method");
 	}
 	public void loadMethod(){
@@ -13,17 +13,17 @@ class AAA{
 	}
 }
 class BBB extends AAA{
-	public void rideMethod(){
-		System.out.println("BBB's Method");
-	}
+//	public void rideMethod(){
+//		System.out.println("BBB's Method");
+//	}
 	public void loadMethod(int num){
 		System.out.println("int Method");
 	}
 }
 class CCC extends BBB{
-	public void rideMethod(){
-		System.out.println("CCC's Method");
-	}
+//	public void rideMethod(){
+//		System.out.println("CCC's Method");
+//	}
 	public void loadMethod(double num){
 		System.out.println("double method");
 	}
@@ -35,7 +35,6 @@ public class RideAndRoad {
 		AAA ref1 = new BBB();
 		BBB ref2 = new CCC();
 		CCC ref3 = new CCC();
-		
 		ref1.rideMethod(); //bbb
 		ref2.rideMethod(); //ccc
 		ref3.rideMethod(); //ccc

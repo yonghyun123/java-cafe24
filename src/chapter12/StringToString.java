@@ -9,9 +9,9 @@ class Friend{
 	public Friend(String name){
 		this.myName = name;
 	}
-//	public String toString(){
-//		return "제 이름은 "+myName+"입니다";
-//	}
+	public String toString(){
+		return "제 이름은 "+myName+"입니다";
+	}
 }
 public class StringToString {
 
