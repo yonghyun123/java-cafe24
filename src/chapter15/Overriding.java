@@ -26,6 +26,8 @@ public class Overriding {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BaseEnSpeaker bs = new BaseEnSpeaker();
+		Speaker s =new Speaker();
+		s.showCurrentState();
 		bs.setVolume(10);
 		bs.setBaseRate(20);
 		bs.showCurrentState();

@@ -11,7 +11,6 @@ class OuterClass2{
 	
 	public Readable2 createLocalClassInst(final int instId){
 		return new Readable2() {
-			
 			@Override
 			public void read() {
 				System.out.println("Outer inst name: "+myName);
