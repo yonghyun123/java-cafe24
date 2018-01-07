@@ -47,6 +47,9 @@ public class GenericBaseFruitBox {
 		apBox.store(new Apple(20));
 		Apple app = apBox.pullOut();
 		app.showAppleWeight();
+		
+		int n = Integer.parseInt("123");
+		System.out.println(n);
 
 	}
 
