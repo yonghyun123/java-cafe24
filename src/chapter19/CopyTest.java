@@ -79,6 +79,15 @@ public class CopyTest {
 			des.add(new Fruit(source.get(i)));
 		}
 		des.get(0).setCount(10);
+		
+		String a ="aaa";
+		a.length();
+		String []aStr = {
+				"aaa","bbb","ccc"
+		};
+		int c = aStr.length;
+		
+//	배열을 초기화 하면 int[] ccc = new int[3] <- 숫자를 넣어주니까 인스턴스 변수에 직접 호출해주는거야 그래서 .length가 가능한거
 		printList();
 	}
 
