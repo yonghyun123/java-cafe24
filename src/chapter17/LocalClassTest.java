@@ -12,11 +12,14 @@ class OuterClass{
 	}
 	
 	public Readable createLocalClassInst(int id){
+		
 		class LocalClass implements Readable{
+			private int a;
 			@Override
 			public void read() {
+				this.a = id;
 				System.out.println("Outer inst name: "+myName);
-				System.out.println("myId:"+id);
+				System.out.println("myId:"+this.a);
 			}
 			
 			public void write(){
