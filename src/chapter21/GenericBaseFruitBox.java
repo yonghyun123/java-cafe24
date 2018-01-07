@@ -1,4 +1,8 @@
 package chapter21;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
 class Orange{
 	int sugarContent;
 	public Orange(int sugar){
@@ -50,7 +54,11 @@ public class GenericBaseFruitBox {
 		
 		int n = Integer.parseInt("123");
 		System.out.println(n);
+		ArrayList<Integer> list =new ArrayList<>(5);
 
+//		for(int i = 0; i < 6; i++){
+//			test.add(i);
+//		}
 	}
 
 }

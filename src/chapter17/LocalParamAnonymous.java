@@ -1,6 +1,5 @@
 package chapter17;
 interface Readable2{
-	public int a = 0;
 	public void read();
 }
 class OuterClass2{
