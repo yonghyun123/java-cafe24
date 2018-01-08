@@ -18,6 +18,7 @@ class User {
 }
 
 public class Question07 {
+	private int num;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -33,6 +34,9 @@ public class Question07 {
 		u2.play(u1, 7);
 		u1.showResult();
 		u2.showResult();
+	}
+	public void func(){
+		this.num = 3;
 	}
 
 }

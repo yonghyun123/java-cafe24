@@ -1,5 +1,7 @@
 package chapter22;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.TreeSet;
 
 class Person implements Comparable<Person>{
@@ -25,6 +27,7 @@ class Person implements Comparable<Person>{
 }
 public class ComparablePerson {
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		인스턴스 비교기준을 정할 땐 그 클래스에 Comparable interface를 구현해야해
@@ -34,6 +37,25 @@ public class ComparablePerson {
 		sTree.add(new Person("lee",21));
 		sTree.add(new Person("han",29));
 		
+		ArrayList<Integer> list = new ArrayList<>();
+		HashSet<Integer> set = new HashSet<>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		list.add(4);
+		
+		set.add(1);
+		set.add(1);
+		set.add(2);
+		set.add(3);
+		
+		for(Integer item: list){
+			System.out.println(item+" ");
+		}
+		
+		for(Integer item: set){
+			System.out.print(item+" ");
+		}
 		/*
 		 * 중요
 		 * 인자로 전달된 obj의 나이가 더 작다면 1을 반환

@@ -34,6 +34,8 @@ class IPTV2 implements Computer2, TV2{
 		// TODO Auto-generated method stub
 		tv.onTV();
 	}
+}
+interface TTT extends TV2{
 	
 }
 public class Question17 {
@@ -42,6 +44,8 @@ public class Question17 {
 		// TODO Auto-generated method stub
 		IPTV2 iptv = new IPTV2();
 		iptv.powerOn();
+		TV2 tv2;
+		TTT ttt2;
 		
 		TV2 tv = iptv;
 		Computer2 comp = iptv;

@@ -15,7 +15,7 @@ public class CastingOperation {
 		
 		long l1 = 100000000000l;
 		float f1 = l1;
-		
+		float ff = 11.3f;
 		System.out.println(f1);
 
 	}

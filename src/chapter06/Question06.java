@@ -8,7 +8,7 @@ public class Question06 {
 	}
 	public static int square(int num){
 		if(num == 1) return 1;
-		return 2 * square(num-1);
+		return 2 * square(--num);
 	}
 
 }

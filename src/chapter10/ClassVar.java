@@ -26,6 +26,6 @@ public class ClassVar {
 		
 		cnt1.instNum++;
 		InstCnt.instNum++;
-		InstCnt cnt4 = new InstCnt();// maybe 5
+		InstCnt cnt4 = new InstCnt();// maybe 6
 	}
 }

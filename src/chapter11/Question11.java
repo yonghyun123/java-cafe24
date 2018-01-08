@@ -9,8 +9,17 @@ public class Question11 {
 		StringBuilder temp = new StringBuilder(str);
 		System.out.println(temp.reverse());
 		*/
+		class Person{
+			private int age;
+		}
+
+		Person a = new Person();
+		a.age = 13;
 		
+		System.out.println(a.age);
 		
+
 	}
+
 
 }

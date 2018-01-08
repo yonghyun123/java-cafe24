@@ -1,8 +1,9 @@
 package chapter18;
 
+import java.io.IOException;
 import java.util.Scanner;
 
-class AgeInputException extends Exception{
+class AgeInputException extends RuntimeException{
 	public AgeInputException(){
 		super("nonono");
 	}
@@ -14,16 +15,20 @@ public class ProgrammerDefineException {
 			int age;
 			try {
 				age = readAge();
-			} catch (AgeInputException e) {
+			} catch (IOException e) {
 				// TODO Auto-generated catch block
+				System.out.println("안들어와?");
 				e.printStackTrace();
-			}
+				
+			} 
+//			finally{
+//				System.out.println("ddd");
+//			}
 
 	}
 	
-	public static int readAge() throws AgeInputException{
-		Scanner key = new Scanner(System.in);
-		int age = key.nextInt();
+	public static int readAge() throws IOException{
+		int age = -1;
 		
 		if(age<0){
 			AgeInputException excpt = new AgeInputException();

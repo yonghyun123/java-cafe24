@@ -1,6 +1,14 @@
 package chapter13;
 
-public class ArrayAndMethods {
+import chapter14.Test01;
+
+public class ArrayAndMethods extends Test01{
+	
+	public void show(){
+		Test01 t = new Test01();
+		
+	}
+	
 	public static int[] addAllArray(int[] ar, int addVal){
 		for(int i = 0; i < ar.length; i++){
 			ar[i] += addVal;
@@ -12,6 +20,9 @@ public class ArrayAndMethods {
 		// TODO Auto-generated method stub
 		int []arr = {1,2,3,4,5};
 		int []ref;
+		
+		Test01 a = new Test01();
+		
 		
 		ref = addAllArray(arr, 7);
 		if(arr==ref)

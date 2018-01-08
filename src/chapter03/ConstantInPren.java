@@ -16,7 +16,7 @@ public class ConstantInPren {
 		//java는 원래 int로 변환시키기 때문에 에러 
 		long n2 = 15000000000000l;
 		
-		long n3 = 1234567890123l;
+		long n3 = 1234567890123111112l;
 		int n4 = (int)n3;
 		System.out.println(n3);
 		System.out.println(n4);

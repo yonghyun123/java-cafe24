@@ -5,6 +5,7 @@ package chapter10;
  *
  */
 final class Circle{
+//	final class는 상속을 막기 위해 만든 클래스야 별거 없
 	public final static double PI = 3.1415;
 	private double radius;
 	
